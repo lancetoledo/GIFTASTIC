@@ -33,7 +33,7 @@ $(document).ready(function () {
 		}).done(function (response) {
 			var results = response.data;
       $("#heroes").empty();
-			for (var i = 0; i < results.length; i++) {
+			for (var i = 0; i < results.length - 20; i++) {
 				var heroDiv = $("<div>");
 				var p = $("<p>").text("Rating: " + results[i].rating);
 				var heroImg = $("<img>");

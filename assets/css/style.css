@@ -1,9 +1,18 @@
+body{
+	background: url("../images/New_York_Battle.PNG.png");
+    background-size: auto;
 
+}
+.jumbotron{
+    background-color: yellow;
 
-#heroes{
-	padding: 3%;
 }
 
-div{
-	margin-bottom: 2%;
+
+h1{
+    font-family: 'Bahianita', cursive;  
+}
+
+#addhero{
+    background-color: white;
 }
